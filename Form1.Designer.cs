@@ -185,7 +185,7 @@
             // removeProxyBtn
             // 
             this.removeProxyBtn.BackColor = System.Drawing.Color.IndianRed;
-            this.removeProxyBtn.Location = new System.Drawing.Point(349, 293);
+            this.removeProxyBtn.Location = new System.Drawing.Point(438, 293);
             this.removeProxyBtn.Name = "removeProxyBtn";
             this.removeProxyBtn.Size = new System.Drawing.Size(82, 29);
             this.removeProxyBtn.TabIndex = 3;
