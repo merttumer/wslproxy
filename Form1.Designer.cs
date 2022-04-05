@@ -68,13 +68,13 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(660, 344);
+            this.panel1.Size = new System.Drawing.Size(768, 344);
             this.panel1.TabIndex = 1;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(560, 208);
+            this.label6.Location = new System.Drawing.Point(686, 207);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(29, 15);
             this.label6.TabIndex = 16;
@@ -83,7 +83,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(560, 149);
+            this.label5.Location = new System.Drawing.Point(686, 148);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(29, 15);
             this.label5.TabIndex = 15;
@@ -91,14 +91,14 @@
             // 
             // forwardPortText
             // 
-            this.forwardPortText.Location = new System.Drawing.Point(560, 226);
+            this.forwardPortText.Location = new System.Drawing.Point(686, 225);
             this.forwardPortText.Name = "forwardPortText";
             this.forwardPortText.Size = new System.Drawing.Size(74, 23);
             this.forwardPortText.TabIndex = 14;
             // 
             // listenPortText
             // 
-            this.listenPortText.Location = new System.Drawing.Point(560, 167);
+            this.listenPortText.Location = new System.Drawing.Point(686, 166);
             this.listenPortText.Name = "listenPortText";
             this.listenPortText.Size = new System.Drawing.Size(74, 23);
             this.listenPortText.TabIndex = 13;
@@ -109,14 +109,14 @@
             this.richTextBox1.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.richTextBox1.Location = new System.Drawing.Point(16, 43);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(415, 244);
+            this.richTextBox1.Size = new System.Drawing.Size(543, 244);
             this.richTextBox1.TabIndex = 12;
             this.richTextBox1.Text = "";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(459, 210);
+            this.label4.Location = new System.Drawing.Point(585, 209);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(79, 15);
             this.label4.TabIndex = 11;
@@ -125,7 +125,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(459, 149);
+            this.label3.Location = new System.Drawing.Point(585, 148);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(67, 15);
             this.label3.TabIndex = 10;
@@ -133,7 +133,7 @@
             // 
             // addProxyBtn
             // 
-            this.addProxyBtn.Location = new System.Drawing.Point(459, 255);
+            this.addProxyBtn.Location = new System.Drawing.Point(585, 254);
             this.addProxyBtn.Name = "addProxyBtn";
             this.addProxyBtn.Size = new System.Drawing.Size(175, 34);
             this.addProxyBtn.TabIndex = 9;
@@ -143,14 +143,14 @@
             // 
             // forwardAddrText
             // 
-            this.forwardAddrText.Location = new System.Drawing.Point(459, 226);
+            this.forwardAddrText.Location = new System.Drawing.Point(585, 225);
             this.forwardAddrText.Name = "forwardAddrText";
             this.forwardAddrText.Size = new System.Drawing.Size(95, 23);
             this.forwardAddrText.TabIndex = 8;
             // 
             // listenAddrText
             // 
-            this.listenAddrText.Location = new System.Drawing.Point(459, 167);
+            this.listenAddrText.Location = new System.Drawing.Point(585, 166);
             this.listenAddrText.Name = "listenAddrText";
             this.listenAddrText.Size = new System.Drawing.Size(95, 23);
             this.listenAddrText.TabIndex = 7;
@@ -159,7 +159,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(459, 25);
+            this.label2.Location = new System.Drawing.Point(585, 24);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(43, 15);
             this.label2.TabIndex = 6;
@@ -167,7 +167,7 @@
             // 
             // getWSLIPBtn
             // 
-            this.getWSLIPBtn.Location = new System.Drawing.Point(459, 73);
+            this.getWSLIPBtn.Location = new System.Drawing.Point(585, 72);
             this.getWSLIPBtn.Name = "getWSLIPBtn";
             this.getWSLIPBtn.Size = new System.Drawing.Size(175, 33);
             this.getWSLIPBtn.TabIndex = 5;
@@ -177,7 +177,7 @@
             // 
             // wslipText
             // 
-            this.wslipText.Location = new System.Drawing.Point(459, 44);
+            this.wslipText.Location = new System.Drawing.Point(585, 43);
             this.wslipText.Name = "wslipText";
             this.wslipText.Size = new System.Drawing.Size(175, 23);
             this.wslipText.TabIndex = 4;
@@ -216,11 +216,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(684, 368);
+            this.ClientSize = new System.Drawing.Size(784, 368);
             this.Controls.Add(this.panel1);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(700, 407);
-            this.MinimumSize = new System.Drawing.Size(700, 407);
+            this.MaximumSize = new System.Drawing.Size(800, 407);
+            this.MinimumSize = new System.Drawing.Size(800, 407);
             this.Name = "Form1";
             this.Text = "wslProxy v0.1";
             this.panel1.ResumeLayout(false);
