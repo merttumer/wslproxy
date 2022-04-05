@@ -40,6 +40,7 @@ namespace wslproxy
             ProcessCmdCommant("wsl.exe", "hostname -I", false, out var ip);
             if (ip == null) return;
             wslipText.Text = ip;
+            forwardAddrText.Text = ip;
         }
 
         private string getProxyList()
