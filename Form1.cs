@@ -55,7 +55,7 @@ namespace wslproxy
         }
 
 
-        private void addWslProxy(string listenaddr, string forwardaddr, string listenport, string forwardport)
+        private void addWslProxy(string listenaddr, string listenport, string forwardaddr, string forwardport)
         {
             ProcessCmdCommant("netsh", $"interface portproxy add v4tov4 listenaddress={listenaddr} listenport={listenport} connectaddress={forwardaddr} connectport={forwardport}", true, out _);
         }
